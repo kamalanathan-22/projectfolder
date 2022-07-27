@@ -26,7 +26,7 @@ export const brand = {
 };
 //
 // Dark Mode - Inherits OS theme if possible
-export const darkMode = Appearance.getColorScheme() === "dark";
+export const darkMode =false;
 //
 // Background Colors
 export const backgroundDefaults = {
@@ -268,23 +268,36 @@ export const image = {
 // Navigation Styles
 export const navigation = {
     statusBar: {
-        backgroundColor: background.primary,
+        backgroundColor: "#0044BD",
         barStyle: darkMode ? "light-content" : "dark-content"
     },
     topBar: {
-        backgroundColor: brand.primary,
+        backgroundColor: "#0044BD",
         backButtonColor: "#FFF",
         titleColor: "#FFF",
-        titleFontSize: font.sizeH6
+        titleFontSize: font.sizeH6,
+        textAlign:'Center'
     },
     bottomBar: {
-        color: contrast.high,
-        selectedTextColor: brand.primary,
-        selectedIconColor: brand.primary,
-        backgroundColor: background.primary,
-        fontSize: font.sizeSmall,
-        iconSize: font.sizeSmall
+        color: "#0044BD",
+        selectedTextColor: "#fff",
+        selectedIconColor: "#000000",
+        selectedIconborderRadius: 30,
+        //selectedIconborderColor: "#ffffff",
+        backgroundColor: "#0044BD",
+        fontSize: font.sizesmall,
+        iconSize: font.sizeLarge,
+        marginBottom:10,
+        paddingTop:10,
+        height:150,
     },
+    selectedIcon: {
+        color: "#000",
+        backgroundColor: "#000",
+       // borderRadius: 10,
+        height:65
+    },
+    /*
     progressOverlay: {
         color: font.colorTitle,
         activityIndicatorColor: font.colorTitle,
@@ -293,10 +306,10 @@ export const navigation = {
         fontSize: font.size,
         borderRadius: border.radiusSmall,
         elevation: 1.5,
-        shadowColor: "#000",
+        shadowColor: "#fff",
         shadowOpacity: 0.1,
         shadowRadius: 10 // Only for iOS
-    }
+    }*/
 };
 //
 // Checkbox styles
@@ -386,38 +399,48 @@ export const badge = {
 export const tabContainer = {
     tabBar: {
         pressColor: contrast.lower,
-        backgroundColor: brand.primary
+        backgroundColor: '#ECEDF7',
+        width: 100, 
+        borderRightWidth:1,
+        borderColor: '#000',
     },
     tab: {
-        paddingVertical: 12
+        paddingVertical: 12,
+        borderRightWidth:1,
+        borderColor: '#000',
     },
     indicator: {
-        backgroundColor: fontDefaults.colorTitleLight,
-        height: Platform.select({ ios: 2, android: 2 })
+        backgroundColor: '#fff',
+        height: Platform.select({ ios: 100, android: 100 }),
+         borderRightWidth:1,
+        borderColor: '#000',
     },
     label: {
-        color: fontDefaults.colorTitleLight,
+        color: '#6779A9',
         fontSize: font.size,
         fontWeight: font.weightSemiBold,
         textTransform: "capitalize"
     },
     activeLabel: {
-        color: fontDefaults.colorTitleLight,
+        color:'#F5523C',
         fontSize: font.size,
         fontWeight: font.weightSemiBold,
         textTransform: "capitalize"
     },
     badgeContainer: {
         borderRadius: border.radiusLargest,
-        backgroundColor: badge.default.backgroundColor,
-        paddingVertical: spacing.smallest,
-        paddingHorizontal: spacing.small,
-        marginLeft: 8
-    },
+        backgroundColor: '#fff',
+        width:100,
+        height:100,
+        borderRightWidth:1,
+        borderColor: '#000',
+        },
     badgeCaption: {
         fontSize: font.size,
         color: badge.default.color,
-        fontWeight: badge.fontWeight
+        fontWeight: badge.fontWeight,
+        borderRightWidth:1,
+        borderColor: '#000',
     }
 };
 //
@@ -645,7 +668,3 @@ export const radioButtons = {
     }
 };
 //
-// Background gradient style
-export const backgroundGradient = {
-    container: {}
-};
