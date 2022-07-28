@@ -612,6 +612,11 @@ export const height700 = {
         height: 650,
     }
 }
+export const height20= {
+    container: {
+        height: 100,
+    }
+}
 export const seemore = {
     text:{
         color: "#769fe8",
