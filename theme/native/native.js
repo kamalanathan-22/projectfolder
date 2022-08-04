@@ -233,7 +233,7 @@ export const font7 = {
         fontFamily: "Roboto",
         fontStyle: 'normal',
         fontWeight: '500',
-        fontSize: 16,
+        fontSize: 15,
         lineHeight: 28,
         color: "#FAFBFC",
     }
