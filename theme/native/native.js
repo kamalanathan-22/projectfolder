@@ -623,3 +623,15 @@ export const seemore = {
         paddingLeft: 25,
     }
 }
+export const imgBorder = {
+    container:{
+        borderRadius:10,
+        height:60,
+        width:60,
+        alignItems:"center",
+        justifyContent:"center",
+    },
+    image: {
+        borderRadius:30,
+    }
+}
