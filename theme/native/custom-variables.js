@@ -403,6 +403,7 @@ export const tabContainer = {
         width: 100, 
         borderRightWidth:1,
         borderColor: '#000',
+        scrollEnabled: true
     },
     tab: {
         paddingVertical: 12,
