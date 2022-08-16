@@ -8,8 +8,8 @@ export const bg = {
 export const bg1 = {
     container: {
         backgroundColor: "#0044BD",
-        height:"20%",
-        width:"100%"
+        height: "20%",
+        width: "100%"
     }
 }
 
@@ -78,22 +78,22 @@ export const flexBox1 = {
 export const flexBox2 = {
     container: {
         backgroundColor: '#8E2DE2',
-            borderRadius:5,
-            height:90,
-            width:90,
-            alignItems:"center",
-            justifyContent:"center",
+        borderRadius: 5,
+        height: 90,
+        width: 90,
+        alignItems: "center",
+        justifyContent: "center",
     }
 }
 
 export const flexBox3 = {
     container: {
         backgroundColor: '#7303C0',
-            borderRadius:5,
-            height:90,
-            width:90,
-            alignItems:"center",
-            justifyContent:"center"
+        borderRadius: 5,
+        height: 90,
+        width: 90,
+        alignItems: "center",
+        justifyContent: "center"
     }
 }
 
@@ -184,7 +184,7 @@ export const font1 = {
     }
 }
 export const font2 = {
-      text: {
+    text: {
         fontFamily: "Roboto",
         fontStyle: 'normal',
         lineHeight: 28,
@@ -472,9 +472,9 @@ export const imageCon11 = {
 export const imageCon111 = {
     container: {
         position: "absolute",
-        justifyContent:"center",
-        alignItems:"center",
-        marginTop:30
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: 30
 
     }
 }
@@ -513,11 +513,11 @@ export const fontNo22 = {
         color: "#9EA4B3",
     }
 }
-export const plusBluebox= {
+export const plusBluebox = {
     container: {
         width: 28,
         height: 29,
-        borderRadius:6,
+        borderRadius: 6,
         paddingTop: 4,
         paddingLeft: 8,
         paddingRight: 8,
@@ -612,41 +612,41 @@ export const height700 = {
         height: 650,
     }
 }
-export const height20= {
+export const height20 = {
     container: {
         height: 100,
     }
 }
 export const seemore = {
-    text:{
+    text: {
         color: "#769fe8",
         paddingLeft: 25,
     }
 }
 export const imgBorder = {
-    container:{
-        borderRadius:10,
-        height:60,
-        width:60,
-        alignItems:"center",
-        justifyContent:"center",
+    container: {
+        borderRadius: 10,
+        height: 60,
+        width: 60,
+        alignItems: "center",
+        justifyContent: "center",
     },
     image: {
-        borderRadius:30,
+        borderRadius: 30,
     }
 }
 export const scrolloption = {
-    container:{
-        borderRadius:10,
-        height:400,
+    container: {
+        borderRadius: 10,
+        height: 400,
         with: 400,
-        overflow:'scroll',
-        border: 2 ,
-        borderColor: "#000" ,
+        overflow: 'scroll',
+        border: 2,
+        borderColor: "#000",
         overflowY: 'hidden',
         overflowX: 'scroll'
-        
+
     },
-   
+
 }
 
