@@ -635,3 +635,18 @@ export const imgBorder = {
         borderRadius:30,
     }
 }
+export const scrolloption = {
+    container:{
+        borderRadius:10,
+        height:400,
+        with: 400,
+        overflow:'scroll',
+        border: 2 ,
+        borderColor: "#000" ,
+        overflowY: 'hidden',
+        overflowX: 'scroll'
+        
+    },
+   
+}
+
