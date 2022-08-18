@@ -638,7 +638,6 @@ export const imgBorder = {
 export const scrolloption = {
     container: {
         borderRadius: 10,
-        height: 400,
         with: 400,
         overflow: 'scroll',
         border: 2,
