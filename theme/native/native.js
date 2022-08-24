@@ -639,6 +639,7 @@ export const scrolloption = {
     container: {
         borderRadius: 10,
         with: 400,
+        height: 500,
         overflow: 'scroll',
         border: 2,
         borderColor: "#000",
@@ -649,5 +650,10 @@ export const scrolloption = {
 
 }
 
+export const tabHeight = {
+    container: {
+        height: 500,
+    }
+}
 
 
