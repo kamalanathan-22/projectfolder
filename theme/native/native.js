@@ -1,5 +1,3 @@
-
-
 export const bg = {
     container: {
         backgroundColor: "#0044BD"
@@ -604,7 +602,7 @@ export const width500 = {
 }
 export const height100 = {
     container: {
-        height: 500,
+        height: 480,
     }
 }
 export const height700 = {
@@ -655,5 +653,3 @@ export const tabHeight = {
         height: 500,
     }
 }
-
-
