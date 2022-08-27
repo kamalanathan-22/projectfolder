@@ -144,7 +144,7 @@ export const card1 = {
         shadowColor: "white",
         shadowOpacity: 0.1,
         shadowRadius: 2,
-        height: 110,
+        height: 140,
     },
 };
 
