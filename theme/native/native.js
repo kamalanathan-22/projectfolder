@@ -600,6 +600,11 @@ export const width500 = {
         width: 250,
     }
 }
+export const width300 = {
+    container: {
+        width: 400,
+    }
+}
 export const height100 = {
     container: {
         height: 480,
