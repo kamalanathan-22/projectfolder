@@ -144,7 +144,7 @@ export const card1 = {
         shadowColor: "white",
         shadowOpacity: 0.1,
         shadowRadius: 2,
-        height: 110,
+        height: 140,
     },
 };
 
@@ -598,6 +598,11 @@ export const width100 = {
 export const width500 = {
     container: {
         width: 250,
+    }
+}
+export const width300 = {
+    container: {
+        width: 400,
     }
 }
 export const height100 = {
