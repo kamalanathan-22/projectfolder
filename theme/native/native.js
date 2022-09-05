@@ -658,3 +658,14 @@ export const tabHeight = {
         height: 500,
     }
 }
+
+export const profileimg = {
+    container: {
+    width: 500,
+    height: 500,
+    borderRadius: 150 / 2,
+    overflow: "hidden",
+    borderWidth: 3,
+    borderColor: "red"
+    }
+}
