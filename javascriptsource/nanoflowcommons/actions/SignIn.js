@@ -5,6 +5,7 @@
 // - the code between BEGIN USER CODE and END USER CODE
 // - the code between BEGIN EXTRA CODE and END EXTRA CODE
 // Other code you write will be lost the next time you deploy the project.
+import "mx-global";
 import { Big } from "big.js";
 
 // BEGIN EXTRA CODE
@@ -32,5 +33,6 @@ export async function SignIn(username, password) {
         const onError = (error) => resolve(new Big(error.status));
         mx.login(username, password, onSuccess, onError);
     });
+  
 	// END USER CODE
 }
