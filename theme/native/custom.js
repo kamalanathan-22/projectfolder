@@ -306,7 +306,7 @@ export const Text6 = {
 export const colorBorderCon = {
   container: {
     width: 25,
-    height: 100,
+    height: 140,
     backgroundColor: "#c1d4f4",
     position: "relative",
     margin:0,
@@ -316,6 +316,14 @@ export const colorBorderCon = {
 export const imageCon = {
   container: {
     position: "absolute",
+  }
+}
+export const pushnoimg = {
+  container: {
+    borderColor: "white",
+    borderWidth: 2,
+    borderRadius: 25,
+
   }
 }
 export const noMargin = {

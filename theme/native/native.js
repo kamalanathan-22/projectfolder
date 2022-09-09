@@ -661,11 +661,27 @@ export const tabHeight = {
 
 export const profileimg = {
     container: {
-    width: 500,
-    height: 500,
+    position: 'relative',
+    width: 150,
+    height: 150,
     borderRadius: 150 / 2,
     overflow: "hidden",
     borderWidth: 3,
-    borderColor: "red"
+    borderColor: "red",
+    alignItems: "center",
+    justifyContent: "center",
+    }
+}
+
+export const profileimg2 = {
+    container: {
+    position: 'relative',
+    width: 65,
+    height: 65,
+    borderRadius: 150 / 2,
+    overflow: "hidden",
+    overflow: "hidden",
+    alignItems: "center",
+    justifyContent: "center",
     }
 }
