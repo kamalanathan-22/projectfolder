@@ -680,6 +680,17 @@ export const profileimg2 = {
     height: 65,
     borderRadius: 150 / 2,
     overflow: "hidden",
+    alignItems: "center",
+    justifyContent: "center",
+    }
+}
+
+export const profileimg3 = {
+    container: {
+    position: 'relative',
+    width: 40,
+    height: 40,
+    borderRadius: 150 / 2,
     overflow: "hidden",
     alignItems: "center",
     justifyContent: "center",
