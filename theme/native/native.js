@@ -667,7 +667,7 @@ export const profileimg = {
     borderRadius: 150 / 2,
     overflow: "hidden",
     borderWidth: 3,
-    borderColor: "red",
+    borderColor: "blue",
     alignItems: "center",
     justifyContent: "center",
     }
