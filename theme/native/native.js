@@ -682,6 +682,8 @@ export const profileimg2 = {
     overflow: "hidden",
     alignItems: "center",
     justifyContent: "center",
+    borderWidth: 2,
+    borderColor: "white",
     }
 }
 
