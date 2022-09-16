@@ -14,12 +14,12 @@ export const bg1 = {
 
 export const frontPageContent = {
     container: {
-        height: 650,
+
         borderTopLeftRadius: 24,
         borderTopRightRadius: 24,
         paddingTop: 30,
         marginTop: 10,
-        backgroundColor: "#F7F8FC",
+        backgroundColor: "#fff",
 
     }
 }
@@ -661,40 +661,40 @@ export const tabHeight = {
 
 export const profileimg = {
     container: {
-    position: 'relative',
-    width: 150,
-    height: 150,
-    borderRadius: 150 / 2,
-    overflow: "hidden",
-    borderWidth: 3,
-    borderColor: "blue",
-    alignItems: "center",
-    justifyContent: "center",
+        position: 'relative',
+        width: 150,
+        height: 150,
+        borderRadius: 150 / 2,
+        overflow: "hidden",
+        borderWidth: 3,
+        borderColor: "blue",
+        alignItems: "center",
+        justifyContent: "center",
     }
 }
 
 export const profileimg2 = {
     container: {
-    position: 'relative',
-    width: 65,
-    height: 65,
-    borderRadius: 150 / 2,
-    overflow: "hidden",
-    alignItems: "center",
-    justifyContent: "center",
-    borderWidth: 2,
-    borderColor: "white",
+        position: 'relative',
+        width: 65,
+        height: 65,
+        borderRadius: 150 / 2,
+        overflow: "hidden",
+        alignItems: "center",
+        justifyContent: "center",
+        borderWidth: 2,
+        borderColor: "white",
     }
 }
 
 export const profileimg3 = {
     container: {
-    position: 'relative',
-    width: 40,
-    height: 40,
-    borderRadius: 150 / 2,
-    overflow: "hidden",
-    alignItems: "center",
-    justifyContent: "center",
+        position: 'relative',
+        width: 40,
+        height: 40,
+        borderRadius: 150 / 2,
+        overflow: "hidden",
+        alignItems: "center",
+        justifyContent: "center",
     }
 }
