@@ -17,6 +17,7 @@ export const frontPageContent = {
 
         borderTopLeftRadius: 24,
         borderTopRightRadius: 24,
+        height: 650,
         paddingTop: 30,
         marginTop: 10,
         backgroundColor: "#fff",
@@ -667,7 +668,7 @@ export const profileimg = {
         borderRadius: 150 / 2,
         overflow: "hidden",
         borderWidth: 3,
-        borderColor: "blue",
+        borderColor: "#0044BD",
         alignItems: "center",
         justifyContent: "center",
     }
@@ -696,5 +697,7 @@ export const profileimg3 = {
         overflow: "hidden",
         alignItems: "center",
         justifyContent: "center",
+        borderWidth: 2,
+        borderColor: "white",
     }
 }
